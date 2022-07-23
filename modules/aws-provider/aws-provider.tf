@@ -1,3 +1,3 @@
 provider "aws" {
-  profile = "valaxy-account"
+  profile = "Mohamed Thoufeek"
 }
