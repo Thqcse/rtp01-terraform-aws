@@ -7,16 +7,16 @@ variable "associate_ip" {
 }
 
 variable "ami" {
-  default =  "ami-0f9fc25dd2506cf6d"
+  default =  "ami-0cff7528ff583bf9a"
 }
 variable "key_name" {
-   default = "Stalin-Devops"
+   default = "RTP"
 }
 
 variable "security_groups" {
-  default = ["valaxy-sg-rtp"]
+  default = ["SG1"]
 }
 
 variable "vpc_security_group_ids" {
-  default = ["valaxy-sg-rtp"]
+  default = ["SG1"]
 }
