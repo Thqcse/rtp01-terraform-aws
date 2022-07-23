@@ -1,7 +1,7 @@
 variable "secgroupname" {
-  default = "valaxy-sg-rtp"
+  default = "SG1"
 }
 
 variable "vpc" {
-   default = "vpc-5f680722"
+   default = "vpc-0b6645596fc4d978e"
 }
